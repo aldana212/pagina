@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{ margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+  margin-left: 80px;
+  transition: margin-left 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    min-height: 100px;
+    background: #e6e5e5;
+    margin-top: -17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 200;
+}
+
+.icon_menu{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(10px);
+}
+
+#boton{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    position: absolute;
+}
+
+.contenedor{
+    margin-left: 25% ;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: black;
+    padding: 12px;
+    margin-right: 100px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.icon_menu i{
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+
+}
+
+.menu__aside{
+    width: 80px;
+    height: 100%;
+    background: #1783db;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 18px;
+    z-index: 300;
+    overflow: hidden;
+    border-right:20px solid#1783db;
+    transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+
+.name_pagina{
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.name_pagina i{
+    width: 20px;
+    margin-right: 20px;
+}
+
+.option_menu{
+    padding: 20px 30px;
+    position: absolute;
+    top: 80px;
+}
+
+.option_menu a{
+    color: #ffffffb2;
+    cursor: default;
+    display: block;
+    position: relative;
+    transition: color 400ms;
+}
+
+.option_menu a :hover{
+    color: white;
+}
+
+.option{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.option i{
+    width: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.option h4{
+    font-weight: 300;
+    cursor: pointer;
+}
+
+/* clases para usar javascript */
+
+.body_move{
+    margin-left: 250px;
+}
+
+.menu_side_move{
+    width: 250px;
+}
+
+.contenedor2{
+    padding-right: 180px;
+}
+
+
+.contenedor2{
+    padding-right: 180px;
+}
+
+.container_form{
+    margin: auto;
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+    margin-left: 750px;
+}
+
+.info_form{
+  margin-top: 100px;
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+
+.container_form h2{
+  margin-bottom: 25px;
+  font-size: 35px;
+}
+
+.container_form p{
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+
+  .container_form a{
+   font-size: 17px;
+   display: inline-block;
+   text-decoration: none;
+   width: 100%;
+   margin-bottom: 15px;
+   color: black;
+   font-weight: 700;
+  }
+
+  .container_form i{
+    color: #1783db;
+    margin-right: 10px;
+  }
+
+  .container_form .campo, textarea{
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 15px;
+    border: 1px solid #0129ae;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0;
+  }
+
+  .container_form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+  }
+
+
+ .container-button{
+    width: 50%;
+    padding: 15px;
+    margin-left: 25%;
+    margin-bottom: 13px;
+    font-size: 16px;
+    border: none;
+    outline: 0;
+    background: #1783db;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+  }
+
+  .container-button:hover{
+    color:white;    
+  }
+
+
+  .label{
+    color:rgb(0, 30, 127);
+    display: flex;
+    flex-direction: column; 
+    font-size: 18px;
+}

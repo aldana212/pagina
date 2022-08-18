@@ -1,0 +1,741 @@
+* {
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    margin-top: 0;
+    margin: auto;
+    min-height: 50vh;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    min-height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #1783fb;
+    width: 100%;
+    margin-top: -20px;
+    border-bottom: 1px solid #1783fb;
+    border-end-start-radius: 25px;
+    border-end-end-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.nombre_empresa {
+    font-size: 1.5rem;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 120px;
+    margin-right: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: 10px;
+}
+
+
+ /* todo sobre la barra lateral comienzo  */
+
+:root{
+   --blue:#3498db;
+   --dark-blue:#2980b9;
+   --red:#1783fb;
+   --dark-red:#1783fb;
+   --white:#fff;
+   --light-bg:#eee;
+}
+
+.btn,
+.delete-btn{
+   width: 100%;
+   border-radius: 5px;
+   padding:10px 30px;
+   color:var(--white);
+   display: block;
+   text-align: center;
+   cursor: pointer;
+   font-size: 20px;
+   margin-top: 10px;
+}
+
+.btn{
+   background-color: var(--blue);
+}
+
+.btn:hover{
+   background-color: var(--dark-blue);
+}
+
+.delete-btn{
+   background-color: var(--red);
+}
+
+.delete-btn:hover{
+   background-color: var(--dark-red);
+}
+
+
+.form-container{
+   min-height: 100vh;
+   background-color: var(--light-bg);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+}
+
+.form-container form{
+   padding:20px;
+   background-color: var(--white);
+   box-shadow: var(--box-shadow);
+   text-align: center;
+   width: 500px;
+   border-radius: 5px;
+}
+
+.form-container form h3{
+   margin-bottom: 10px;
+   font-size: 30px;
+   color:var(--black);
+   text-transform: uppercase;
+}
+
+.form-container form .box{
+   width: 100%;
+   border-radius: 5px;
+   padding:12px 14px;
+   font-size: 18px;
+   color:var(--black);
+   margin:10px 0;
+   background-color: var(--light-bg);
+}
+
+.form-container form p{
+   margin-top: 15px;
+   font-size: 20px;
+   color:var(--black);
+}
+
+.form-container form p a{
+   color:var(--red);
+}
+
+.form-container form p a:hover{
+   text-decoration: underline;
+}
+
+.container{
+   min-height: 100vh;
+   background-color: var(--light-bg);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+}
+
+.container .profile{
+   padding:20px;
+   background-color: var(--white);
+   box-shadow: var(--box-shadow);
+   text-align: center;
+   width: 400px;
+   border-radius: 5px;
+}
+
+.container .profile img{
+   height: 150px;
+   width: 150px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-bottom: 5px;
+}
+
+.container .profile h3{
+   margin:5px 0;
+   font-size: 20px;
+   color:var(--black);
+}
+
+.container .profile p{
+   margin-top: 20px;
+   color:var(--black);
+   font-size: 20px;
+}
+
+.container .profile p a{
+   color:var(--red);
+}
+
+.container .profile p a:hover{
+   text-decoration: underline;
+}
+
+.update-profile{
+   min-height: 100vh;
+   background-color: var(--light-bg);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding:20px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10%;
+}
+
+.update-profile form{
+   padding:20px;
+   background-color: var(--white);
+   box-shadow: var(--box-shadow);
+   text-align: center;
+   width: 700px;
+   text-align: center;
+   border-radius: 5px;
+}
+
+.update-profile .Foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.Foto img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.update-profile form .flex{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+   gap:15px;
+}
+
+
+
+.update-profile form .flex .inputBox{
+   width: 49%;
+
+}
+
+.update-profile form .flex .inputBox span{
+   text-align: left;
+   display: block;
+   margin-top: 15px;
+   font-size: 17px;
+   color:var(--black);
+}
+
+.update-profile form .flex .inputBox .box{
+   width: 100%;
+   border-radius: 5px;
+   background-color: var(--light-bg);
+   padding:12px 14px;
+   font-size: 17px;
+   color:var(--black);
+   margin-top: 10px;
+}
+
+@media (max-width:650px){
+   .update-profile form .flex{
+      flex-wrap: wrap;
+      gap:0;
+   }
+   .update-profile form .flex .inputBox{
+      width: 100%;
+   }
+}
+/* comienza el section  */
+
+
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;
+    bottom: 0;
+    left: 0;
+    margin-top: 30px;
+}
+.footer1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+
+}
+
+.colum1 h1{
+    font-size: 20px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #c7c7c7;
+    margin-top: 20px;
+
+}
+
+.colum2{
+    max-width: 400px;
+
+}
+
+.colum2 h1{
+    font-size: 22px;
+
+}
+
+.icono{
+    margin-top: 20px;
+    display: flex;
+}
+
+.icono i{
+    font-size: 30px;
+    color: white;
+}
+
+.icono label{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #c7c7c7;
+
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+
+}
+
+
+.icono1{
+    margin-top: 20px;
+    display: flex;
+}
+
+.icono1 i{
+    font-size: 30px;
+}
+
+.icono1 label{
+    margin-left: 20px;
+    margin-top: 10px;
+    max-width: 140px;
+
+}
+
+/* aca iran los botonnes  */
+.botones{
+    margin-left: 19%;
+    margin-top: -35px
+}
+.container-button{
+    display: table-cell;
+    margin-bottom: 40px;
+ } 
+ 
+ .button {
+ 
+     background-color: transparent;
+     color: #1783fb;
+     border: 2px solid #1783fb;
+     width: 20%;
+     min-width: 16vw;
+     height: 40px;
+     margin-left: 4vw;
+     margin-top: 15%;
+     border-radius: 7px;
+  
+ }
+ .button:hover {
+     background-color: #1783fb;
+     color: white!important;
+     text-decoration: none;
+     text-transform: uppercase;
+ } 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    margin-top: 0;
+    margin: auto;
+    min-height: 50vh;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    min-height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #1783fb;
+    width: 100%;
+    margin-top: -20px;
+    border-bottom: 1px solid #1783fb;
+    border-end-start-radius: 25px;
+    border-end-end-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.nombre_empresa {
+    font-size: 1.5rem;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 120px;
+    margin-right: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: 10px;
+}
+ */
+
+ 
+
+/* .barraL{
+     width: 30%;
+     min-height: 80vh;
+     min-width: 30vw ;
+     background-color:rgb(255, 255, 255);
+     margin-left: 6vw;
+     -webkit-border-radius:5px;
+     -moz-border-radius:5px;
+     -ms-border-radius:5px;
+     -o-border-radius:5px;
+     border-radius: 30px;
+     box-sizing: border-box;
+     box-shadow: 13px 13px 13px 13px#c3c2c2;
+     -webkit-border-radius: 30px;
+     -moz-border-radius: 30px;
+     -ms-border-radius: 30px;
+     -o-border-radius: 30px;
+}
+
+
+.tituloAnimado1{
+    color: black;
+   font-size: 3vw;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   margin-left: 1vw;
+    position: relative;
+    margin-top: 1vw;
+    margin-left: 20%;
+
+}
+
+.foto{
+    background-color: rgb(255, 255, 255);
+    height: 49%;
+    min-height:12vw ;
+    width: 48%;
+    min-width: 12vw ;
+    margin-left: 24%;
+    margin-top: 30px;
+    border: black 2px solid;
+    border-radius: 5px;
+    
+}
+
+.fotoPerfil img{
+    width:30%;
+    height: 79%;
+    min-width: 12.3vw;
+    min-height: 50%;
+    margin-left: 6%;
+    border: 1px black solid;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.filas{
+    background-color: #d6e8fd;
+    border-right: 1px black solid;
+    border-bottom: 1px black solid;
+    width: 65%;
+    min-width: 15vw;
+    height: 2.5vw;
+    margin-left: 45%;
+    display: block;
+    margin-top: 25px;
+}
+
+
+.tituloAnimado2{
+    color: black;
+   font-size: 230%;
+   margin-left: 1vw;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: 2vw;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.header_registro {
+    margin-top: 40%;
+    margin-left: 5vw;
+    margin-top: 0.3%;
+    width: 100%;
+    min-width: 45vw;
+    height: 100%;
+    min-height:40vw ;
+    text-align: center;
+    border-radius: 30px; 
+    box-sizing: border-box;
+    box-shadow: 13px 13px 13px 13px#c3c2c2;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+
+.inputs{
+   margin-left: 30%;
+   width: 170%;
+   min-width:20vw;
+   height: 4vw;
+   border: 1.5px black solid;
+   border-radius: 15px;
+   outline: none;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
+   background-color: #d6e8fd;
+}
+
+
+.inputs::placeholder {
+    color: rgb(0, 0, 0);
+   font-size: 1.5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.container-button{
+   display: inline-block;
+   margin-bottom: 40px;
+} 
+
+.button {
+
+    background-color: transparent;
+    color: #1783fb;
+    border: 2px solid #1783fb;
+    width: 20%;
+    min-width: 16vw;
+    height: 40px;
+    margin-top: 19%;
+    border-radius: 7px;
+ 
+}
+.button:hover {
+    background-color: #1783fb;
+    color: white!important;
+    text-decoration: none;
+    text-transform: uppercase;
+} 
+
+.np{
+    margin-right:55%;
+    margin-top: -5%;
+    margin-left: 15%;
+  
+}
+.uno{
+    margin-bottom: 4.2%;
+}
+
+.np label{
+    font-family: Verdana, Tahoma, sans-serif;
+    color: black;
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;
+    bottom: 0;
+    left: 0;
+    margin-top: 30px;
+}
+.footer1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+
+}
+
+.colum1 h1{
+    font-size: 20px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #c7c7c7;
+    margin-top: 20px;
+
+}
+
+.colum2{
+    max-width: 400px;
+
+}
+
+.colum2 h1{
+    font-size: 22px;
+
+}
+
+.icono{
+    margin-top: 20px;
+    display: flex;
+}
+
+.icono i{
+    font-size: 30px;
+    color: white;
+}
+
+.icono label{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #c7c7c7;
+
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+
+}
+
+
+.icono1{
+    margin-top: 20px;
+    display: flex;
+}
+
+.icono1 i{
+    font-size: 30px;
+}
+
+.icono1 label{
+    margin-left: 20px;
+    margin-top: 10px;
+    max-width: 140px;
+
+}
+ */
+

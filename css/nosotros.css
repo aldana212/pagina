@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    min-height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    background-color: #1783fb;
+    width: 100%;
+    margin-top: -10px;
+    border-bottom: 1px solid #1783fb;
+    border-end-start-radius: 25px;
+    border-end-end-radius: 25px;
+    z-index: 100;
+}
+
+.logo_nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo_nav img {
+    height: 120px;
+    margin-right: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: 5px;
+}
+
+.nombre_empresa{
+    font-size: 1.5rem;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+
+.contenido{
+    margin-top: 12%;
+}
+
+
+
+.reparaciones_express{
+    border-radius: 22px;
+    background-color: rgb(244, 244, 244);
+    margin: auto;
+    width: 90%;
+    height: auto;
+}
+
+.info {
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+.title {
+    text-align: center;
+    padding: 4%;
+    margin-top: 50px;
+    
+}
+
+/* PARTE DE LOS EFECTOS */
+
+.title span {
+    --total: calc(var(--duration)
+    + var(--delay));
+    position: relative;
+    display: block;
+    color:transparent;
+    overflow: hidden;
+    animation: revealText 1s;
+    -webkit-animation: revealText 1s  
+    var(--total) forwards;
+    font-size: 20px;
+    border-radius: 22px;
+}
+
+.title span::after{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scaleX(0);
+    transform-origin:left;
+    background: #1783fb;
+    animation: rollIn var(--duration)
+    var(--delay) forwards,
+    rollOut var(--duration)
+    var(--total) forwards;
+}
+
+
+.title span:nth-child(2)::ofter{
+    border-top:3px solid #896ab9;
+}
+
+
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;
+    bottom: 0;
+    left: 0;
+    margin-top: 30px;
+}
+
+.footer1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 20px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #c7c7c7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.icono{
+    margin-top: 20px;
+    display: flex;
+}
+
+.icono i{
+    font-size: 30px;
+    color: white;
+}
+
+.icono label{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #c7c7c7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.icono1{
+    margin-top: 20px;
+    display: flex;
+}
+
+.icono1 i{
+    font-size: 30px;
+}
+
+.icono1 label{
+    margin-left: 20px;
+    margin-top: 10px;
+    max-width: 140px;
+}
+
+@keyframes revealText{
+    to{
+        color:rgb(20, 0, 0);
+    }
+}
+
+@keyframes rollIn{
+    from {
+        transform: scaleX(0);
+    }
+    to {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes rollOut{
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+@media (max-width: 1090px) {
+    .contenido{
+        margin-top: 18%;
+    }
+}
+
+@media (max-width: 760px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenido{
+        margin-top: 28%;
+    }
+}
+
+@media (max-width: 760px) {
+    .contenido{
+        margin-top: 35%;
+    }
+}

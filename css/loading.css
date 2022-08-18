@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,*:after, *:before{
+    margin: 0;
+    padding: 0;
+   -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+#contenedor_carga{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    -webkit-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+    z-index: 10000;
+}
+
+.contenedor1{
+    visibility: hidden;
+    opacity: 1;
+}
+
+
+#cargar{
+    border: solid 5px #064555;
+    border-top: solid 5px #7cd6ec;
+    border-top-style:groove;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: girar 1s linear infinite;
+     -o-animation: girar 1s linear infinite;
+    animation: girar 1s linear infinite;
+}
+
+
+.message{
+    position: absolute;
+     color: #7cd6ec;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     animation: message 1s alternate infinite;
+}
+
+
+@keyframes girar{
+    from { transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+
