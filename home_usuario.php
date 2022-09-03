@@ -66,34 +66,37 @@
             }
             ?>
     
-   </header>
+    </header>
 
-   <div class="menu__aside" id="menu_aside">
+    <div class="menu__aside" id="menu_aside">
         <div class="name_pagina">
         <i class="bi bi-house-door-fill"></i>
             <h4>Home</h4>
         </div>
 
         <div class="option_menu">
-            <!-- <a href="/pagina/perfil.php">
-                <div class="option">
-                <i class="bi bi-person-fill"></i>
-                    <h4>perfil</h4>
-                </div>
-            </a> -->
+
             <a href="/pagina/agendamiento.php" >
                 <div class="option">
                 <i class="bi bi-calendar-plus-fill"></i>
                     <h4>Agendamiento</h4>
                 </div>
-             </a>
-             <!-- <a href="">
+            </a>
+            
+            <a href="/pagina/agendamiento.php" >
+                <div class="option">
+                    <i class="bi bi-calendar-week-fill"></i>
+                    <h4>Mis Citas</h4>
+                </div>
+            </a>
+            
+            <!-- <a href="">
                 <div class="option">
                 <i class="bi bi-chat-dots-fill"></i>
                 <h4>Chat</h4>
                 </div>
-             </a>
-             <a href="">
+            </a>
+            <a href="">
                 <div class="option">
                 <i class="bi bi-car-front-fill"></i>
                    <h4>Observacion de vehiculo</h4>
