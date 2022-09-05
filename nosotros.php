@@ -24,9 +24,6 @@
             </div>
         </div> -->
 
-
-
-
 <header>
         <a class="logo_nav" href="/pagina/home1.php">
             <img src="img/logo_completo.jpg" alt="Imagen del logo de Reparaciones Express">

@@ -37,8 +37,6 @@ if(!isset($_SESSION['usuario'])){ // Si no existe la variable de sesión, redire
      </div>
 </div>
 
-
-
 <header>
 <div class="icon_menu">
 <i class="bi bi-justify" id="boton"></i>
@@ -76,7 +74,6 @@ if(!isset($_SESSION['usuario'])){ // Si no existe la variable de sesión, redire
 </div>
 <div class="edit">
     <?php
-
 
   $id = $_GET["id"];
 
@@ -145,6 +142,7 @@ if(!isset($_SESSION['usuario'])){ // Si no existe la variable de sesión, redire
                   <button>Actualizar</button>
               </form>
         </div>
+
     <script src="/pagina/js/js1.js"></script>
     <script src="/pagina/js/loading.js"></script>
 

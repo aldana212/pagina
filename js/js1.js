@@ -8,7 +8,6 @@ var body =document.getElementById("body");
 var contenedor=document.getElementById("contenedor1");
 var menu= document.getElementById("menu1");
 
-
 // evento para mostrar y ocultar menu
 
 function open_close(){

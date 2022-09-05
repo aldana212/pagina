@@ -12,6 +12,7 @@
         die(); 
     }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,9 +38,9 @@
       </div>
   
    <header>
-    <div class="icon_menu">
-    <i class="bi bi-justify" id="boton"></i>
-    </div>
+        <div class="icon_menu">
+            <i class="bi bi-justify" id="boton"></i>
+        </div>
 
     <h1 id="h1">Reparaciones Express</h1>
      
@@ -233,7 +234,3 @@
    <script src="./js/comentarios.js"></script>
 </body>
 </html>
-
-
-<!-- logo para el perfil
-<i class="fa-solid fa-circle-user"></i> -->

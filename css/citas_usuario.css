@@ -69,7 +69,6 @@ nav a {
 nav a:hover {
     text-decoration: underline;
     text-transform: uppercase;
-
 }
 
 /* Main */
@@ -87,7 +86,7 @@ table {
     top:  33%;   
     border-collapse: collapse;
     max-width: 800px;
-    max-height: 140px;
+    max-height: 240px;
     border: 1px solid #bdc3c7;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
     transform: translate(-50%, -50%);
@@ -126,11 +125,6 @@ tr:hover {
     display: block;
 }
 
-
-
-
-
-
 /* FOOTER */
 
 footer{
@@ -157,7 +151,6 @@ footer{
 
 .colum1{
     max-width: 400px;
-
 }
 
 .colum1 h1{
@@ -168,17 +161,14 @@ footer{
     font-size: 14px;
     color: #c7c7c7;
     margin-top: 20px;
-
 }
 
 .colum2{
     max-width: 400px;
-
 }
 
 .colum2 h1{
     font-size: 22px;
-
 }
 
 .icono{
@@ -195,7 +185,6 @@ footer{
     margin-top: 10px;
     margin-left: 10px;
     color: #c7c7c7;
-
 }
 
 .colum3{
@@ -204,9 +193,7 @@ footer{
 
 .colum3 h1{
     font-size: 22px;
-
 }
-
 
 .icono1{
     margin-top: 20px;
@@ -221,5 +208,4 @@ footer{
     margin-left: 20px;
     margin-top: 10px;
     max-width: 140px;
-
 }

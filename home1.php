@@ -26,17 +26,14 @@
 
 </head>
 
-
-
 <body>
 
-                <div>
-                    <div id="contenedor_carga">
-                            <div id="cargar"></div>
-                                <p class="message">Cargando...</p>
-                        </div>
-                </div>
-
+    <div>
+        <div id="contenedor_carga">
+            <div id="cargar"></div>
+            <p class="message">Cargando...</p>
+        </div>
+    </div>
 
     <header id="header">
         <div class="container__header">
@@ -254,5 +251,4 @@ while($data = mysqli_fetch_array($consulta)){
   <script src="js/comentarios.js"></script>
 
 </body>
-
 </html>

@@ -70,16 +70,7 @@ while($consulta=mysqli_fetch_array($data)){
      <h2>¿Quieres agendar una cita?</h2>
       <p> <?php echo $consulta['nombre'];?>  Para agendar una cita debes completar los campos requeridos, Como: Nombre completo, Telefono, Tipo de documento, Info del veiculo, Dia deseado para la cita, Entre otros datos... </p>
       <img src="img/agendar.png" alt="" srcset="">
-      <!-- <a href="">
-        <i class="fa fa-phone"></i>3226393946
-      </a>
-      <a href="">
-        <i class="fa fa-envelope"></i>ReparacionesExpress@gmail.com
-      </a>
-      <a href="">
-        <i class="fa fa-map-marked"></i>Armenia, Colombia
-      </a> -->
-    </div>
+  </div>
 
     <?php
     }
@@ -167,10 +158,8 @@ while($consulta=mysqli_fetch_array($data)){
     </footer>
 
 
- <script src="js/js2.js"></script>
- <script src="js/loading.js"></script>
-
- 
+    <script src="js/js2.js"></script>
+    <script src="js/loading.js"></script>
 
 </body>
 </html> 

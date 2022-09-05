@@ -21,10 +21,4 @@ $query = "INSERT INTO comentarios ( correo , comentario)
   ';
  }
 
-
-
-
-
-
-
 ?>

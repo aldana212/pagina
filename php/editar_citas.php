@@ -29,14 +29,12 @@ if(!isset($_SESSION['usuario'])){ // Si no existe la variable de sesión, redire
 <body id="body">
 
 
-       <div>
-            <div id="contenedor_carga">
-                 <div id="cargar"></div>
-                 <p class="message">Cargando...</p>
-            </div>
-      </div>
-
-
+    <div>
+        <div id="contenedor_carga">
+            <div id="cargar"></div>
+            <p class="message">Cargando...</p>
+        </div>
+    </div>
 
 <header>
     <div class="icon_menu">
@@ -49,7 +47,6 @@ if(!isset($_SESSION['usuario'])){ // Si no existe la variable de sesión, redire
             <a href="/pagina/php/cerrar_sesion.php" class="nav_link">Cerrar Sesion</a>
         </nav>
    </header>
-
 
     <div class="menu__aside" id="menu_aside">
          <div class="name_pagina">
@@ -70,14 +67,11 @@ if(!isset($_SESSION['usuario'])){ // Si no existe la variable de sesión, redire
                       <h4>Agendamiento</h4>
                     </div>
               </a>
-                  
           </div>
      </div>
    
-
      <?php
     $id = $_GET["id"];
-
 
     $consulta =mysqli_query($conexion, "SELECT * FROM citas  WHERE id='$id'");
       $option='';
@@ -99,7 +93,6 @@ if(!isset($_SESSION['usuario'])){ // Si no existe la variable de sesión, redire
                 }else if($T_D == "cedula de extranjeria"){
                     $option = '<option value="'.$T_D.'" select>'.$T_D.'</option>';
                 }
-
     ?>
 
     <div class="container_form">
@@ -150,7 +143,9 @@ if(!isset($_SESSION['usuario'])){ // Si no existe la variable de sesión, redire
       }
       ?>
 </div>
-<script src="/pagina/js/js1.js"></script>
+
+    <script src="/pagina/js/js1.js"></script>
     <script src="/pagina/js/loading.js"></script>
+    
 </body>
 </html>

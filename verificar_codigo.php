@@ -15,7 +15,6 @@
         }else{
          $correcto = false;
           }
-
 ?>
 
 <!DOCTYPE html>

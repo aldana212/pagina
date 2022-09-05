@@ -15,12 +15,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 <body>
-      <!-- <div>
+
+        <div>
             <div id="contenedor_carga">
                  <div id="cargar"></div>
                  <p class="message">Cargando...</p>
             </div>
-      </div> -->
+      </div>
 
 <header>
         <a class="logo_nav" href="/pagina/home1.php">

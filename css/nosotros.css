@@ -61,12 +61,9 @@ nav a:hover {
     text-transform: uppercase;
 }
 
-
 .contenido{
     margin-top: 12%;
 }
-
-
 
 .reparaciones_express{
     border-radius: 22px;
@@ -82,11 +79,11 @@ nav a:hover {
     text-align: center;
 
 }
+
 .title {
     text-align: center;
     padding: 4%;
     margin-top: 50px;
-    
 }
 
 /* PARTE DE LOS EFECTOS */
@@ -121,11 +118,9 @@ nav a:hover {
     var(--total) forwards;
 }
 
-
 .title span:nth-child(2)::ofter{
     border-top:3px solid #896ab9;
 }
-
 
 footer{
     width: 100%;

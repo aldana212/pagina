@@ -106,7 +106,6 @@ nav a:hover {
    background-color: var(--dark-red);
 }
 
-
 .form-container{
    min-height: 100vh;
    background-color: var(--light-bg);
@@ -244,8 +243,6 @@ nav a:hover {
    gap:15px;
 }
 
-
-
 .update-profile form .flex .inputBox{
    width: 49%;
 
@@ -278,8 +275,8 @@ nav a:hover {
       width: 100%;
    }
 }
-/* comienza el section  */
 
+/* comienza el section  */
 
 footer{
     width: 100%;
@@ -303,7 +300,6 @@ footer{
 
 .colum1{
     max-width: 400px;
-
 }
 
 .colum1 h1{
@@ -314,17 +310,14 @@ footer{
     font-size: 14px;
     color: #c7c7c7;
     margin-top: 20px;
-
 }
 
 .colum2{
     max-width: 400px;
-
 }
 
 .colum2 h1{
     font-size: 22px;
-
 }
 
 .icono{
@@ -341,7 +334,6 @@ footer{
     margin-top: 10px;
     margin-left: 10px;
     color: #c7c7c7;
-
 }
 
 .colum3{
@@ -350,9 +342,7 @@ footer{
 
 .colum3 h1{
     font-size: 22px;
-
 }
-
 
 .icono1{
     margin-top: 20px;
@@ -367,21 +357,21 @@ footer{
     margin-left: 20px;
     margin-top: 10px;
     max-width: 140px;
-
 }
 
 /* aca iran los botonnes  */
+
 .botones{
     margin-left: 19%;
     margin-top: -35px
 }
+
 .container-button{
     display: table-cell;
     margin-bottom: 40px;
- } 
+} 
  
- .button {
- 
+.button {
      background-color: transparent;
      color: #1783fb;
      border: 2px solid #1783fb;
@@ -393,6 +383,7 @@ footer{
      border-radius: 7px;
   
  }
+
  .button:hover {
      background-color: #1783fb;
      color: white!important;

@@ -13,7 +13,6 @@ include 'C:\xampp/htdocs/pagina/php/conexion1.php';
     }
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -49,8 +48,6 @@ include 'C:\xampp/htdocs/pagina/php/conexion1.php';
         </nav>
    </header>
 
-
-
     <div class="menu__aside" id="menu_aside">
          <div class="name_pagina">
          <i class="bi bi-house-door-fill"></i>
@@ -73,7 +70,6 @@ include 'C:\xampp/htdocs/pagina/php/conexion1.php';
                   
           </div>
      </div>
-    
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <div class="graficas">

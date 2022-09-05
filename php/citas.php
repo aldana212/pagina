@@ -27,11 +27,5 @@ $query = "INSERT INTO citas (nombre, telefono, t_d, n_documento, correo, placa, 
     </script>
   ';
  }
-
-
-
-
-
-
-
+ 
 ?>

@@ -74,7 +74,6 @@ if(!isset($_SESSION['usuario'])){ // Si no existe la variable de sesión, redire
           </div>
      </div>
    
-
  <table>
    <tr id="encabezado">
      <th scope="col">id_usuario</th>
@@ -111,11 +110,6 @@ if(!isset($_SESSION['usuario'])){ // Si no existe la variable de sesión, redire
 
     <script src="/pagina/js/js1.js"></script>
     <script src="js/loading.js"></script>
+
 </body>
 </html>
-
-
-
-
-
-

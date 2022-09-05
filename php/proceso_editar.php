@@ -77,6 +77,4 @@ else if($_POST['ID']){
 }
 
 mysqli_close($conexion);
-
-
 ?>

@@ -24,12 +24,13 @@ if(isset($_GET['correo']) && isset($_GET['token'])){
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 <body>
-      <!-- <div>
-            <div id="contenedor_carga">
-                 <div id="cargar"></div>
-                 <p class="message">Cargando...</p>
-            </div>
-      </div> -->
+
+    <div>
+        <div id="contenedor_carga">
+            <div id="cargar"></div>
+            <p class="message">Cargando...</p>
+        </div>
+    </div>
 
 <header>
         <a class="logo_nav" href="/pagina/home1.php">
@@ -40,11 +41,9 @@ if(isset($_GET['correo']) && isset($_GET['token'])){
         <nav>
         <a href="/pagina/home1.php" class="nav_link">Inicio</a>
             <a href="registro.php" class="nav_link">Registrar</a>
-
         </nav>
 
     </header>
-
 
 <main class="login-desing">
         <div class="container">
@@ -120,7 +119,9 @@ if(isset($_GET['correo']) && isset($_GET['token'])){
                </div>   
             </div>
     </footer>
+
   <script src="js/loading.js"></script>
+  
 </body>
 
 </html>

@@ -9,8 +9,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-
 #contenedor_carga{
     background-color: black;
     height: 100%;
@@ -28,7 +26,6 @@
     visibility: hidden;
     opacity: 1;
 }
-
 
 #cargar{
     border: solid 5px #064555;
@@ -48,7 +45,6 @@
     animation: girar 1s linear infinite;
 }
 
-
 .message{
     position: absolute;
      color: #7cd6ec;
@@ -58,10 +54,7 @@
      animation: message 1s alternate infinite;
 }
 
-
 @keyframes girar{
     from { transform: rotate(0deg);}
     to {transform: rotate(360deg);}
 }
-
-

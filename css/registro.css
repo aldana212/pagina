@@ -7,7 +7,6 @@
 
 }
 
-
 body{
     font-family: 'Poppins', sans-serif;
     background: #F0F0F0;
@@ -216,7 +215,6 @@ nav a:hover {
     font-weight: 600;
 }
 
-
 .button{
     margin-left: 23%;
     margin-top: 100px;
@@ -234,7 +232,6 @@ nav a:hover {
     -o-border-radius: 7px;
 }
 
-
 .vinculo {
     margin-left: 20px;
     text-decoration: none;
@@ -246,7 +243,6 @@ nav a:hover {
     text-decoration: none;
     color: black;
 }
-
 
 .vinculo:hover {
     text-decoration: underline;
@@ -292,7 +288,6 @@ footer{
 
 .colum1{
     max-width: 400px;
-
 }
 
 .colum1 h1{
@@ -303,17 +298,14 @@ footer{
     font-size: 14px;
     color: #c7c7c7;
     margin-top: 20px;
-
 }
 
 .colum2{
     max-width: 400px;
-
 }
 
 .colum2 h1{
     font-size: 22px;
-
 }
 
 .icono{
@@ -330,7 +322,6 @@ footer{
     margin-top: 10px;
     margin-left: 10px;
     color: #c7c7c7;
-
 }
 
 .colum3{
@@ -339,9 +330,7 @@ footer{
 
 .colum3 h1{
     font-size: 22px;
-
 }
-
 
 .icono1{
     margin-top: 20px;
@@ -356,234 +345,7 @@ footer{
     margin-left: 20px;
     margin-top: 10px;
     max-width: 140px;
-
 }
-/* pmpmp */
-
-
-/* @media screen and (max-width: 1326px){
-    
-    .container{
-        margin-top: 12%;
-    }
-    
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-/* formulario antiguao */
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-* {
-    padding: 0;
-    margin: 0;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-}
-
-header {
-    display: flex;
-    min-height: 120px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    position: fixed;
-    background-color: #1783fb;
-    width: 100%;
-    margin-top: -10px;
-    border-bottom: 1px solid #1783fb;
-    border-end-start-radius: 25px;
-    border-end-end-radius: 25px;
-}
-
-.logo_nav {
-    display: flex;
-    align-items: center;
-}
-
-.logo_nav img {
-    height: 120px;
-    margin-right: 10px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    margin-top: 5px;
-}
-
-.nombre_empresa {
-    font-size: 1.5rem;
-    color: white;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.3rem;
-}
-
-nav a {
-    font-weight: 600;
-    padding-right: 20px;
-}
-
-nav a:hover {
-    text-decoration: underline;
-    text-transform: uppercase;
-}
-
-.register {
-    width: 400px;
-    height: 758px;
-    border: 1px solid black;
-    box-shadow: 15px 15px 15px #777272;
-    margin: 20px;
-    background-color: white;
-    text-align: center;
-    margin: auto;
-    margin-top: 10px;
-    box-sizing: border-box;
-    color: #000000;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-}
-
-.header_registro {
-    margin-top: 140px;
-}
-
-.titulo_crearCuenta {
-    padding-top: 10px;
-    font-size: 1.4rem;
-}
-
-.logo {
-    width: 200px;
-    height: 200px;
-    margin-top: 15px;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    border: 1px dashed black;
-}
-
-.vinculo {
-    text-decoration: none;
-    color: black;
-}
-
-.vinculo:hover {
-    text-decoration: underline;
-    color: rgb(13, 17, 230);
-}
-
-.inputs {
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    min-width: 300px;
-    height: 30px;
-    outline: none;
-    background-color: #d6e8fd;
-    font-size: 14px;
-    padding-left: 6px;
-    margin: 12px;
-    flex-direction: column;
-   
-}
-
-.inputs::placeholder {
-    color: black;
-}
-.container-button{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.button {
-    margin-left: 50px;
-    margin-top: 20px;
-    background-color: transparent;
-    color: #1783fb;
-    border: 2px solid #1783fb;
-    width: 290px;
-    height: 40px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px;
-}
-.check{
-    margin-right: 8px;
-    width: 16px;
-    height: 16px;
-}
-
-.button:hover {
-    background-color: #1783fb;
-    color: white!important;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
- */
-
-/* no va */
-/* .container_footer{
-    width: 100%;
-    background: #101010;
-}
-
-.container_footer1{
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-
-.copy{
-    color: #c7c7c7;
-
-}
-
-.copy a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    
-}
-
-
-.informacion a{
-    text-decoration: none;
-    color: #c7c7c7;
-   padding: 12px;
-} */
-
 
 @media (max-width:700px) {
     header {
@@ -604,4 +366,3 @@ nav a:hover {
         align-items: center;
     }
 }
-

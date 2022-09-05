@@ -92,8 +92,6 @@ if(!isset($_SESSION['usuario'])){ // Si no existe la variable de sesión, redire
      <th class="th" scope="col">Eliminar</th>
    </tr>
    <?php
-    //   $consulta = "SELECT us.id_usuario, us.nombre, us.apellido, us.correo, us.telefono, ca.descripcion FROM usuario us 
-    //   INNER JOIN cargos ca ON us.id_cargo=ca.id";
 
       $consulta = "SELECT * FROM citas";
       

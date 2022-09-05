@@ -3,7 +3,6 @@ document.getElementById("cancelar").addEventListener("click", close);
 
 function open(){
     document.getElementById("register").style.display = 'block';
-
 }
 
 function close(){
